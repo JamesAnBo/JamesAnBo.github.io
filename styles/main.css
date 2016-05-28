@@ -63,8 +63,56 @@ ul {
 }
 
 #footer {
-	width: 100%;
-	text-align: center;
+	width: 600px;
 	bottom: 0px;
 
 }
+
+.facebook {
+	width: 32px;
+	height: 32px;
+	display: block;
+	background-image: url(../images/off_facebook_32.png);
+}
+
+.facebook:hover {
+	background-image: url(../images/on_facebook_32.png);
+}
+
+.twitter {
+	width: 32px;
+	height: 32px;
+	display: block;
+	background-image: url(../images/off_twitter_32.png);
+}
+
+.twitter:hover {
+	background-image: url(../images/on_twitter_32.png);
+}
+
+.linkedin {
+	width: 32px;
+	height: 32px;
+	display: block;
+	background-image: url(../images/off_linkedin_32.png);
+}
+
+.linkedin:hover {
+	background-image: url(../images/on_linkedin_32.png);
+}
+
+.github {
+	width: 32px;
+	height: 32px;
+	display: block;
+	background-image: url(../images/off_github_32.png);
+}
+
+.github:hover {
+	background-image: url(../images/on_github_32.png);
+}
+
+
+
+
+
