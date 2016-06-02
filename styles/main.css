@@ -1,5 +1,38 @@
 * {
-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@media only screen and (max-width: 500px) {
+	#navi {
+	width: 450px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+	#navi ul{
+    list-style: none;
+    padding:0px;
+    margin:0px;
+    line-height: 30px
+	}
+
+	#navi li {
+	padding-left: 20px;
+	display: inline;
+	vertical-align: middle;
+	list-style-type: none;
+	}
+
+	#navi a{
+	vertical-align: middle;
+	display: inline-block;
+    text-decoration: none;
+    text-align: center;
+	}
 }
 
 .col-1 {width: 8.33%;}
@@ -61,7 +94,7 @@ ul {
 
 #navi-background {
 	background-color: white;
-	width: 200px;
+	width: 210px;
 	border-radius: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
