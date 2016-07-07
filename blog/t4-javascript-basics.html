@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript Basics</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/prism.css" data-noprefix />
+    <script src="../scripts/prism.js"></script>
+<!--
+    <script type="text/javascript" src="scripts/shCore.js"></script>
+    <script type="text/javascript" src="scripts/shBrushJScript.js"></script>
+    <link type="text/css" rel="stylesheet" href="styles/shCoreDefault.css"/>
+    <script type="text/javascript">SyntaxHighlighter.all();</script>
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+-->
+  </head>
+  <body>
+    <div class="section group">
+      <div class="col span_1_of_3"></div>
+      <div class="col span_1_of_3">
+          <div id="header-1">
+            <h1>James' Blogs</h1>
+          </div>
+        <div id="background">
+          <div id="navi_2">
+            <ul>
+              <li><a href="https://jamesanbo.github.io">Home</a></li>
+              <li><a href="">Portfolio</a></li>
+              <li><a href="">About</a>
+            </ul>
+          </div>
+          <div id="header-2">
+            <h1>Javascript Basics</h1>
+          </div>
+          <div id="qna">
+                <ul>
+                  <li><p>Things I've learned about Javascript.</p></li>
+                  <li><h2>How does JavaScript compare to HTML and CSS?</h2></li>
+                  <li><p>While HTML and CSS pertain to how a website looks and feels. Javascropt allows for the website to be more interactive. It gives an object far more complex rules and instructions to follow.</p></li>
+                  <li><h2>Explain control flow and loops using an example process from everyday life, for example 'waking up' or 'brushing your teeth'.</h2></li>
+                  <li><p>A control flow is just like an if/else statement in normal life. For example you might think that if it's sunny i'll mow the lawn, otherwise i'll stay inside. A loop is exactly what it sounds like. In everyday life you might think I'll keep chopping this onion until it's all chopped up. Thus you're chopping it on a loop until you've met a requirement.</p></li>
+                  <li><h2>Explain the difference between accessing data from arrays and object literals.</h2></li>
+                  <li><p>An array is like a list with a specific order. To access data from an array you need to know where in the array the data is or what the data you're accessing is (Like a list of names or dates). When accessing data from object literals you're essentially access descriptive attributes of an object (Like how tall someone is, or what breed a dog is).</p></li>
+                  <li><h2>Explain what functions are and why they are useful.</h2></li>
+                  <li><p>A function in Javascript is a named block of code that you might want to run several times and on demand. Often with different variables in place. Such as x+y, but you want a different number for x and y each time you call it. It's useful to keep you're code to a minimum. For example it's easier to write</p>
+                    <pre><code class="language-js">
+function exampleFunc(x,y){
+  if(x > 5) {
+    return x + y;
+  }else{
+    return x - y;
+  }
+}
+                    </code></pre>
+                  <p>and follow that up with</p>
+                    <pre><code class="language-js">
+exampleFunc(3,5);
+exampleFunc(7,2);
+exampleFunc(243,32);
+                    </code></pre>
+                  <p>than rewrite the same if/else over and over again. Also it saves time and code length if you wish to call the "exampleFunc" function inside another function.</p>
+                  </li>
+                </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section group">
+          <div class="col span_1_of_3"></div>
+          <div class="col span_1_of_3">
+            <div id="footer">
+              <ul>
+                <li><a href="https://www.facebook.com/Aesk423" class="facebook" title="facebook"></a></li>
+                <li><a href="https://twitter.com/JamesABoyer" class="twitter" title="twitter"></a></li>
+                <li><a href="https://www.linkedin.com/in/james-boyer-238b4b14?trk=hp-identity-name" class="linkedin" title="linkedin"></a></li>
+                <li><a href="https://github.com/JamesAnBo" class="github" title="github"></a></li>
+              </ul>
+          </div>
+          </div>
+        </div>
+  </body>
+</html>
